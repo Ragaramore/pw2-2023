@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Tilt+Warp&display=swap');
+body{
+    align-items:center;
+    justify-content: center;
+    font-family: 'Gloock', serif;  
+    color: #FA991C;
+    background-color: #fbf3f2;
+    margin: 50px;
+    padding: 50px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+form {
+    background-color: #1c768f;
+    padding: 40px;
+    max-width:500px;
+    margin:40px auto;
+    box-shadow:0 4px 10px 4px black;
+    border-radius: 25px;
+}
+
+.btn {
+    margin-top: 50px;
+    width: 250px;
+    height: 50px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: #FA991C;
+  background: linear-gradient(0deg, #FA991C 0%, #FA991C 50%);
+  }
+.btn:hover {
+    color: #FA991C;
+    background: transparent;
+     box-shadow:none;
+  }
+.btn:before,
+.btn:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #FA991C;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+.btn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+.btn:hover:before,
+.btn:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }

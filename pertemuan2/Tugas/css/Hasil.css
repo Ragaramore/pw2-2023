@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Tilt+Warp&display=swap');
+body{
+    align-items:center;
+    justify-content: center;
+    font-family: 'Gloock', serif;  
+    color: #FA991C;
+    background-color: #fbf3f2;
+    margin: 50px;
+    padding: 50px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+h2{
+  margin-bottom: 50px;
+}
